@@ -32,6 +32,7 @@ export default {
     }
   },
   methods:{
+    //注意 方法中没有this.$event,vue将$event传给了方法的第一个参数
     changeName(event){
       this.user.userName=event
     },
