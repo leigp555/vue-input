@@ -5,7 +5,6 @@
 </template>
 <script>
 export default {
-  name:"MyInput",
   props:["value"],
   methods:{
     onInput(e){
